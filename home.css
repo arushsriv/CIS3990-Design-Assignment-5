@@ -25,30 +25,53 @@
     opacity: 50%;
 }
 
-.like-btns {
+.movie-poster-div {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-poster-img {
+    width: 300px;
+    height: 500px;
+}
+
+.movie-poster-div .content_img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.movie-poster-div .content_img div{
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.movie-poster-div .content_img:hover{
+    cursor: pointer;
+}
+
+.movie-poster-div .content_img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.movie-poster-div .like-btns {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding-top: 2rem;
 }
-
-.movie-poster-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.movie-poster-img {
-    width: 50%;
-    height: 50%;
-}
-
-.hide {
-    display: none;
-}
-
-.movie-poster-img:hover + .hide {
-    display: block;
-    color: red;
-  }

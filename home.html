@@ -10,13 +10,20 @@
 
   <body class="wrapper">
 
-    <h1>Home</h1>
-    <h3>Movie Name</h3> <!-- TODO -->
-    <h5>Directed by: Director</h5> <!-- TODO -->
+    <h3>Interstellar</h3>
+    <h5>Directed by: Christpoher Nolan</h5>
 
     <div class="movie-poster-div">
-        <img src="Interstellar.jpg" alt="Interstellar movie poster" class="movie-poster-img">
-        <img src="heart.png" alt="Heart icon" id="heart" class="heart-invisible">
+        <div class="content_img">
+          <img src="Interstellar.jpg" alt="Interstellar movie poster" class="movie-poster-img">
+          <div>Synopsis: Set in a dystopian future where humanity is struggling to survive, the film follows 
+            a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind. 
+          </div>
+       </div>
+       <div class="like-btns">
+        <button id="dislike" onclick="dislikeMovie()">Dislike</button>
+        <button id="like" onclick="likeMovie()">Like</button>
+      </div>
         <!-- <button id="movie-info-btn" onclick="showMovieInfo()" class >Show Movie Info</button> -->
 
         <!-- <h3 class="hide">heeellloooo</h3> -->
@@ -24,15 +31,7 @@
         <!-- TODO -->
     </div>
 
-    <div id="movie-infobox" class="hide">
-        awefawefeaewf
-        <h3>Helloooo</h3>
-    </div>
-
-    <div class="like-btns">
-        <button id="dislike" onclick="dislikeMovie()">Dislike</button>
-        <button id="like" onclick="likeMovie()">Like</button>
-    </div>
+    <!-- <img src="heart.png" alt="Heart icon" id="heart" class="heart-invisible"> -->
 
     <!-- <div class="like-icon"> -->
     <!-- </div> -->
