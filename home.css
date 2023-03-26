@@ -1,0 +1,54 @@
+#movie-infobox {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+.wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding-top: 10%;
+    padding-bottom: 10%; */
+    background-color: gainsboro;
+}
+
+.heart-invisible {
+    display: none;
+    opacity: 50%;
+}
+
+.like-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.movie-poster-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-poster-img {
+    width: 50%;
+    height: 50%;
+}
+
+.hide {
+    display: none;
+}
+
+.movie-poster-img:hover + .hide {
+    display: block;
+    color: red;
+  }
