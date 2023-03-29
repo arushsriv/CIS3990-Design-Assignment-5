@@ -2,46 +2,71 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <script src="home.js" defer></script>
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="css/home.css" />
   </head>
 
-  <!-- <body class="wrapper"> -->
   <body>
-
+    <!-- NAME AND DIRECTED BY -->
     <h3>Interstellar</h3>
-    <h5>Directed by: Christpoher Nolan</h5>
+    <h4>Directed by: Christpoher Nolan</h4>
 
-    <div class="movie_container">
-      <img src="Interstellar.jpg" alt="Interstellar movie poster" class="movie_image">
-      <div class="middle_movie">
-        <div class="text_movie">
-          Synopsis: Set in a dystopian future where humanity is struggling to survive, the film follows 
-          a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind.
+    <!-- MOVIE IMAGE -->
+    <div class="mvcontainer">
+      <img src="images/Interstellar.jpg" alt="Interstellar movie poster" class="image">
+      <div class="middle">
+        <div class="text">
+          <div class="synopsis">Synopsis:</div> 
+          Set in a dystopian future where humanity is struggling to survive, the film 
+          follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for 
+          mankind.
+          <div class="cast">Cast:</div> 
+          <div class="castphotos">
+            <img src="images/mathmc.png" alt="Matthew McConaughey" height="70px" width="50px">
+            <img src="images/jessicachastain.png" alt="Jessica Chastain" height="70px" width="50px">
+            <img src="images/annehathaway.png" alt="Anne Hathaway" height="70px" width="50px">
+            <figcaption style="font-size:12px;">Matthew McConaughey, Jessica Chastain, Anne Hathaway</figcaption>
+          </div>
         </div>
       </div>
     </div>
 
-
-    <!-- <img src="Interstellar.jpg" alt="Interstellar movie poster" height="500px" width="300px"> <br> -->
-    <button id="dislike" onclick="dislikeMovie()">Dislike</button>
-    <button id="like" onclick="likeMovie()">Like</button>
-    <div class="scrollmenu">
-      <img src="home.png" alt="Home Icon" height="25px" width="30px">
-      <img src="friends.png" alt="Friends Icon" height="25px" width="30px">
-      <img src="search.png" alt="Search Icon" height="25px" width="30px">
-      <img src="lists.png" alt="Lists Icon" height="25px" width="30px">
-      <img src="me.png" alt="Me Icon" height="25px" width="30px">
-      <img src="settings.png" alt="Settings Icon" height="25px" width="30px">
+    <!-- LIKE AND DISLIKE BUTTONS -->
+    <div class="flex-parent jc-center">
+      <button style="height:50px; width:60px" class="dislikebu">
+        <img src="images/likeheart.png" alt="Like Heart" height="30px" width="40px">
+      </button>
+      <button style="height:50px; width:60px" class="dislikebu">
+        <img src="images/heartbreak.png" alt="Hearbreak" height="30px" width="40px">
+      </button>
     </div>
-    <!-- <div class="like-btns">
-      <button id="dislike" onclick="dislikeMovie()">Dislike</button>
-      <button id="like" onclick="likeMovie()">Like</button>
-    </div> -->
 
-    <!-- <div class="movie-poster-div">
+    <!-- NAVIGATION MENU -->
+    <div class="navmenu">
+      <button class="navmenubuttonhome">
+        <img src="images/home.png" alt="Home Icon" height="25px" width="35px">
+      </button>
+      <button class="navmenubutton">
+        <img src="images/friends.png" alt="Friends Icon" height="25px" width="35px">
+      </button>
+      <button class="navmenubutton">
+        <img src="images/search.png" alt="Search Icon" height="25px" width="35px">
+      </button>
+      <button class="navmenubutton">
+        <img src="images/lists.png" alt="Lists Icon" height="25px" width="35px">
+      </button>
+      <button class="navmenubutton">
+        <img src="images/me.png" alt="Me Icon" height="25px" width="35px">
+      </button>
+      <button class="navmenubutton">
+        <img src="images/settings.png" alt="Settings Icon" height="25px" width="35px">
+      </button>
+    </div>
+
+    <!-- 
+    <div class="movie-poster-div">
         <div class="content_img">
           <img src="Interstellar.jpg" alt="Interstellar movie poster" class="movie-poster-img">
           <div>Synopsis: Set in a dystopian future where humanity is struggling to survive, the film follows 

@@ -4,18 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Login Page</title>
+    <link rel="stylesheet" href="css/login.css" />
   </head>
 
   <body>
-    <img src="movieMatchLogo.png" alt="MovieMatch">
+    <img src="images/movieMatchLogo.png" alt="MovieMatch" height="120px" width="150px">
     <h1>Movie Match</h1>
 
     <p>Please log in to continue.</p>
-    <input type="text" id="Username" name="Username" placeholder="Enter your username"> <br>
-    <input type="text" id="Password" name="Password" placeholder="Enter your password"> <br>
-    <a href="forgotUsername.html">Forgot Username</a> <br> 
-    <a href="forgotPassword.html">Forgot Password</a> <br>
-    <button onclick="window.location.href = 'home.html';">Log In &#8594;</button>
-    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    <input class="input" type="text" id="Username" name="Username" placeholder="Enter your username"> <br>
+    <input class="input" type="text" id="Password" name="Password" placeholder="Enter your password"> <br> 
+    <a class="forgot" href="forgotUsername.html">Forgot Username</a> 
+    <a class="forgot" href="forgotPassword.html">Forgot Password</a> <br> <br>
+    <button class="loginbutton" onclick="window.location.href = 'home.html';">Log In &#8594;</button>
+    <p class="noaccount">Don't have an account? <a class="signup" href="signup.html">Sign Up</a></p>
   </body>
 </html>

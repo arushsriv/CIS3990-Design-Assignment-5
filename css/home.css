@@ -1,0 +1,162 @@
+body, html {
+    background-color: #ffffff;
+    font-family: 'Trebuchet MS';
+}
+
+h3 {
+    margin: 0px;
+    color: #3498D0;
+    padding: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Trebuchet MS';
+}
+
+h4 {
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+}
+
+/* --------------------------------------------------- */
+/* NAVIGATION MENU */
+.navmenu {
+    display: flex;
+    justify-content: center;
+    background-color: #fb9648a0;
+    width: 330px;
+    margin: auto;
+}
+
+.navmenubuttonhome {
+    cursor: pointer;
+    background-color: #a07759a0;
+    border: 2px solid #da701fb3;
+    margin: 2px; 
+    appearance: none;
+    transition: transform .7s ease-in-out;
+}
+
+.navmenubutton {
+    cursor: pointer;
+    background-color: #fb9648a0;
+    border: 2px solid #da701fb3;
+    margin: 2px; 
+    appearance: none;
+    transition: transform .7s ease-in-out;
+}
+
+.navmenubuttonhome:hover {
+    background-color: #3497d0a9;
+}
+
+.navmenubutton:hover {
+    background-color: #3497d0a9;
+}
+
+/* --------------------------------------------------- */
+/* HOVER OVER MOVIE IMAGE */
+.mvcontainer {
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+  
+.image {
+    opacity: 1;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    margin: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 350;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.mvcontainer:hover .image {
+    opacity: 0.6;
+    margin: auto;
+}
+  
+.mvcontainer:hover .middle {
+    opacity: 1;
+    margin: auto;
+}
+  
+.text {
+    background-color: #717171;
+    color: white;
+    font-size: 12px;
+    width: 200px;
+    height: auto;
+    padding: 16px 32px;
+}
+
+.synopsis {
+    padding: 10px 10px;
+    color: #4ebaf9;
+}
+
+.cast {
+    padding: 10px 10px;
+    color: #4ebaf9;
+}
+
+.castphotos {
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+/* --------------------------------------------------- */
+/* LIKE DISLIKE BUTTONS */
+
+.dislikebu {
+    background-color: #fb9648a0;
+    border: 2px solid #da701fb3;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    appearance: none;
+    transition: transform .7s ease-in-out;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%; 
+}
+
+.dislikebu:hover {
+    background-color: #3497d0a9;
+}
+
+.flex-parent {
+    display: flex;
+}
+
+.jc-center {
+    padding: 6px;
+    justify-content: center;
+}
+
+button.margin-right {
+    margin-right: 20px; 
+}

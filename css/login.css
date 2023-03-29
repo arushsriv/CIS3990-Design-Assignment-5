@@ -1,0 +1,80 @@
+body, html {
+    background-color: #ffffff;
+    font-family: 'Trebuchet MS';
+}
+
+img {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+h1 {
+    margin: 0px;
+    color: #ca6618b3;
+    padding: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Trebuchet MS';
+}
+
+p {
+    color: #909398;
+    padding: 0px;
+}
+
+.input {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #909398;
+    padding: 7px; 
+    margin: 2px;
+    width: 51%;
+    height: 20px;
+}
+
+::placeholder { 
+    color: #ca6618b3;
+  }
+
+.forgot {
+    position: relative;
+    padding: 7px; 
+    font-size: 13px;
+    margin: 2;
+    color: #3498D0;
+}
+
+.noaccount {
+    position: relative;
+    font-size: 13px;
+    color: #909398;
+    margin: 2;
+    padding: 7px; 
+}
+
+.signup {
+    position: relative;
+    font-size: 13px;
+    justify-content: center;
+    color: #3498D0;
+    /* margin: auto; */
+    /* display: flex; */
+}
+
+.loginbutton {
+    cursor: pointer;
+    background-color: #3498D0;
+    text-align: center;
+    border-radius: 10px;
+    width: 25%;
+    height: 30px;
+    color: white;
+    border: none;
+    appearance: none;
+    padding: 7px; 
+    transition: transform .7s ease-in-out;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}

@@ -1,0 +1,55 @@
+body, html {
+    background-color: #ffffff;
+    font-family: 'Trebuchet MS';
+}
+
+img {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+h1 {
+    margin: 0px;
+    color: #ca6618b3;
+    padding: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Trebuchet MS';
+}
+
+p {
+    color: #909398;
+    padding: 0px;
+}
+
+.input {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #909398;
+    padding: 7px; 
+    margin: 4px;
+    width: 51%;
+    height: 20px;
+}
+
+::placeholder { 
+    color: #ca6618b3;
+  }
+
+.signupbutton {
+    cursor: pointer;
+    background-color: #3498D0;
+    text-align: center;
+    border-radius: 10px;
+    width: 25%;
+    height: 30px;
+    color: white;
+    border: none;
+    appearance: none;
+    padding: 7px; 
+    transition: transform .7s ease-in-out;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
