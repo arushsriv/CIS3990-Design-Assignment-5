@@ -1,19 +1,29 @@
 const likeBtn = document.getElementById("like");
 const dislikeBtn = document.getElementById("dislike");
 const heartIcon = document.getElementById("heart");
-
-
-// TODO variables to save liked movie to saved list
-
-function likeMovie() {
-    console.log("Like");
-    heartIcon.className = "";
-    // setTimeout(10);
-    // heartIcon.className = "heart-invisible";
-}
+const heartbreakIcon = document.getElementById("heartbreak");
 
 function dislikeMovie() {
-    console.log("Disike");
-    heartIcon.className = "heart-invisible";
+    document.getElementById('heartbreak')
+            .style.display = "block";
+    document.getElementById('dislike');
+    setTimeout(hideHeartbreak, 3000);
+}
+
+function likeMovie() {
+    document.getElementById('heart')
+            .style.display = "block";
+    document.getElementById('like');
+    setTimeout(hideHeart, 3000);
+}
+
+function hideHeart() {
+    document.getElementById('heart')
+            .style.display = "none";
+}
+
+function hideHeartbreak() {
+    document.getElementById('heartbreak')
+            .style.display = "none";
 }
 

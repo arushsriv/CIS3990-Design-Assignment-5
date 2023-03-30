@@ -125,6 +125,7 @@ h4 {
     padding: 2px;
     text-align: center;
 }
+
 /* --------------------------------------------------- */
 /* LIKE DISLIKE BUTTONS */
 
@@ -159,4 +160,20 @@ h4 {
 
 button.margin-right {
     margin-right: 20px; 
+}
+
+/* --------------------------------------------------- */
+/* HEART AND NOT HEART */
+.heart {
+    position: absolute;
+    bottom: 300px;
+    opacity: 0.7;
+    left: 150px;
+}
+
+.heartbreak {
+    position: absolute;
+    bottom: 300px;
+    opacity: 0.7;
+    left: 150px;
 }
