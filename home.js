@@ -15,6 +15,8 @@ function likeMovie() {
             .style.display = "block";
     document.getElementById('like');
     setTimeout(hideHeart, 3000);
+    document.getElementById('lists')
+            .style.display = "block";
 }
 
 function hideHeart() {

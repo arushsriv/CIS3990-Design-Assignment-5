@@ -177,3 +177,12 @@ button.margin-right {
     opacity: 0.7;
     left: 150px;
 }
+
+/* --------------------------------------------------- */
+/* LISTS */
+.lists {
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
