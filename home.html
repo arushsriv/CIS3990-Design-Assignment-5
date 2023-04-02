@@ -50,13 +50,16 @@
     </div>
     <!-- DROPDOWN LIST MENU -->
     <div class="lists"> 
-      <label for="lists" id="lists" style="display:none;">Your lists:</label>
-      <select name="lists" id="lists" style="display:none;">
-        <option value="Sci-Fi" id="lists">Sci-Fi</option>
-        <option value="April 2023" id="lists">April 2023</option>
-        <option value="Family" id="lists">Family</option>
-        <option value="create new" id="lists">
-          <button class="createnewlist" id="lists" onclick="window.location.href = 'home.html';">+ Create New</button>
+      <!-- <label for="lists" id="lists" style="display:none;">Your lists:</label> -->
+      <label for="lists" id="lists" style="display:block;">Your lists:</label>
+      <!-- <select name="lists" id="lists" style="display:none;"> -->
+      <select name="lists" id="lists-dropdown" style="display:none;">
+        <option value="Sci-Fi">Sci-Fi</option>
+        <option value="April 2023">April 2023</option>
+        <option value="Family">Family</option>
+        <option value="create new">
+          <!-- <button class="createnewlist" onclick="console.log('hello');">+ Create New</button> -->
+          Create New
         </option>
       </select>
     </div>
@@ -72,7 +75,7 @@
       <button class="navmenubutton">
         <img src="images/search.png" alt="Search Icon" height="25px" width="35px">
       </button>
-      <button class="navmenubutton">
+      <button class="navmenubutton" onclick="window.location.href = 'lists.html'">
         <img src="images/lists.png" alt="Lists Icon" height="25px" width="35px">
       </button>
       <button class="navmenubutton">

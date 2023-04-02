@@ -1,0 +1,89 @@
+body, html {
+    background-color: #ffffff;
+    font-family: 'Trebuchet MS';
+}
+
+h3 {
+    margin: 0px;
+    color: #3498D0;
+    padding: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Trebuchet MS';
+}
+
+h4 {
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+}
+
+.mvcontainer {
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    height: 400px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    position: relative;
+}
+
+.div-create-new-list {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* --------------------------------------------------- */
+/* NAVIGATION MENU */
+.navmenu {
+    display: flex;
+    justify-content: center;
+    background-color: #fb9648a0;
+    width: 330px;
+    margin: auto;
+}
+
+.navmenubuttonhome {
+    cursor: pointer;
+    background-color: #a07759a0;
+    border: 2px solid #da701fb3;
+    margin: 2px; 
+    appearance: none;
+    transition: transform .7s ease-in-out;
+}
+
+.navmenubutton {
+    cursor: pointer;
+    background-color: #fb9648a0;
+    border: 2px solid #da701fb3;
+    margin: 2px; 
+    appearance: none;
+    transition: transform .7s ease-in-out;
+}
+
+.navmenubuttonhome:hover {
+    background-color: #3497d0a9;
+}
+
+.navmenubutton:hover {
+    background-color: #3497d0a9;
+}
+
+/* --------------------------------------------------- */
+/* LISTS */
+/* .lists {
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+} */

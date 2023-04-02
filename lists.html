@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <script src="lists.js" defer></script>
+    <link rel="stylesheet" href="css/lists.css" />
+  </head>
+
+  <body>
+    <h3>My Lists:</h3>
+
+    <!-- TODO show that we are now on lists page -->
+    <!-- TODO hardcoded lists but show persistence and use local storage -->
+
+    <!-- MOVIE IMAGE -->
+    <div class="mvcontainer">
+        <div class="lists"> 
+            <button class="list-option" id="sci-fi-list-btn" onclick="expandSciFiList()">
+                <h5>Sci-Fi</h5>
+            </button>
+            <!-- TODO placement of below div -->
+            <div id="sci-fi-list" style="display:none;">
+                <h6>Arrival</h6>
+                <h6>Inception</h6>
+                <h6>Ex Machina</h6>
+                <h6>Interstellar</h6>
+            </div>
+            <!-- TODO placement of above div -->
+            <button class="list-option">
+                <h5>April 2023</h5>
+            </button>
+            <button class="list-option">
+                <h5>Family</h5>
+            </button>
+            <!-- TODO button for creating new list -->
+        </div>
+        <div class="div-create-new-list">
+            <button class="create-new-list">
+                <h5>Create New List</h5>
+            </button>
+        </div>
+        <!-- <button class="create-new-list">
+            <h5>Create New List</h5>
+        </button> -->
+      </div>
+
+    <!-- DROPDOWN LIST MENU -->
+
+    <!-- NAVIGATION MENU -->
+    <div class="navmenu">
+        <button class="navmenubuttonhome" onclick="window.location.href = 'home.html'">
+          <img src="images/home.png" alt="Home Icon" height="25px" width="35px">
+        </button>
+        <button class="navmenubutton">
+          <img src="images/friends.png" alt="Friends Icon" height="25px" width="35px">
+        </button>
+        <button class="navmenubutton">
+          <img src="images/search.png" alt="Search Icon" height="25px" width="35px">
+        </button>
+        <button class="navmenubutton" onclick="window.location.href = 'lists.html'">
+          <img src="images/lists.png" alt="Lists Icon" height="25px" width="35px">
+        </button>
+        <button class="navmenubutton">
+          <img src="images/me.png" alt="Me Icon" height="25px" width="35px">
+        </button>
+        <button class="navmenubutton">
+          <img src="images/settings.png" alt="Settings Icon" height="25px" width="35px">
+        </button>
+      </div>
+
+  </body>
+</html>

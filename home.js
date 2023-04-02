@@ -7,16 +7,20 @@ function dislikeMovie() {
     document.getElementById('heartbreak')
             .style.display = "block";
     document.getElementById('dislike');
-    setTimeout(hideHeartbreak, 3000);
+    setTimeout(hideHeartbreak, 1000);
 }
 
 function likeMovie() {
     document.getElementById('heart')
             .style.display = "block";
     document.getElementById('like');
-    setTimeout(hideHeart, 3000);
+    setTimeout(hideHeart, 1000);
     document.getElementById('lists')
             .style.display = "block";
+    document.getElementById('lists-dropdown')
+            .style.display = "block";   
+
+    // TODO show like button is clicked
 }
 
 function hideHeart() {
@@ -27,5 +31,9 @@ function hideHeart() {
 function hideHeartbreak() {
     document.getElementById('heartbreak')
             .style.display = "none";
+}
+
+function closeList() {
+        document.getElementById('lists').style.display = "none";
 }
 
