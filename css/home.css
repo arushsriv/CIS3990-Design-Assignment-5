@@ -89,7 +89,7 @@ h4 {
     text-align: center;
 }
   
-.mvcontainer:hover .image {
+.middle:hover .image {
     opacity: 0.6;
     margin: auto;
 }
@@ -183,6 +183,18 @@ button.margin-right {
 .lists {
     position: absolute;
     bottom: 300px;
-    left: 150px;
+    left: 175px;
+    /* border: 1px solid black; */
+    background-color: white;
+    color: #da701fb3;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+    align-items: center;
+    /* padding: 5px; */
+}
+
+option {
+    color: #da701fb3;
 }
 
