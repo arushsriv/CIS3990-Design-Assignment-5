@@ -14,6 +14,7 @@ function dislikeMovie() {
             .style.display = "block";
     document.getElementById('lists-dropdown')
             .style.display = "block";   
+        setTimeout(nextMovie, 1000);
 }
 
 function likeMovie() {
@@ -29,6 +30,11 @@ function likeMovie() {
             .style.display = "block";   
 
     // TODO show like button is clicked
+    var img = document.getElementById("likeImage");
+    var filename = img.src.replace(/^.*[\\\/]/, '');
+    if (filename == "likeheart.png") {
+        img.src = "images/heart.png";
+    }
 }
 
 function hideHeart() {
@@ -45,3 +51,6 @@ function closeList() {
         document.getElementById('lists').style.display = "none";
 }
 
+function nextMovie() {
+        window.location.href = 'home2.html';
+}
