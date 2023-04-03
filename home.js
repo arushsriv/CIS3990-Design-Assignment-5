@@ -10,11 +10,7 @@ function dislikeMovie() {
             .style.display = "block";
     document.getElementById('dislike');
     setTimeout(hideHeartbreak, 1000);
-    document.getElementById('lists')
-            .style.display = "block";
-    document.getElementById('lists-dropdown')
-            .style.display = "block";   
-        setTimeout(nextMovie, 1000);
+setTimeout(nextMovie, 1000);
 }
 
 function likeMovie() {
