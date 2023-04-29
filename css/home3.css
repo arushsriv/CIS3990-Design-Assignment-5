@@ -5,8 +5,7 @@ body, html {
 
 h3 {
     margin: 0px;
-    /* color: teal; */
-    color: rgba(160, 68, 68, 0.382);
+    color: teal;
     padding: 0px;
     text-align: center;
     font-size: 24px;
@@ -104,14 +103,19 @@ li {
 
 /* --------------------------------------------------- */
 /* HOVER OVER MOVIE IMAGE */
-.mvcontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.mvcontainerimage {
     position: relative;
     width: 300px;
     height: auto;
+    top: 130px;
+    justify-content: center;
     margin: auto;
+}
+
+.text {
+    position: absolute;
+    top: 70px;
+    left: 55px;
 }
   
 .image {
@@ -143,7 +147,7 @@ li {
     margin: auto;
 }
   
-.mvcontainer:hover .middle {
+.mvcontainerimage:hover .middle {
     opacity: 1;
     margin: auto;
 }
@@ -215,15 +219,15 @@ button.margin-right {
 /* --------------------------------------------------- */
 /* HEART AND NOT HEART */
 .heart {
-    position: absolute;
-    bottom: 300px;
+    position: relative;
+    bottom: 400px;
     opacity: 0.7;
     left: 150px;
 }
 
 .heartbreak {
-    position: absolute;
-    bottom: 300px;
+    position: relative;
+    bottom: 400px;
     opacity: 0.7;
     left: 150px;
 }

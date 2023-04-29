@@ -5,8 +5,7 @@ body, html {
 
 h3 {
     margin: 0px;
-    /* color: teal; */
-    color: rgba(160, 68, 68, 0.382);
+    color: teal;
     padding: 0px;
     text-align: center;
     font-size: 24px;
@@ -105,12 +104,10 @@ li {
 /* --------------------------------------------------- */
 /* HOVER OVER MOVIE IMAGE */
 .mvcontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     position: relative;
     width: 300px;
     height: auto;
+    justify-content: center;
     margin: auto;
 }
   
