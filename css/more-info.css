@@ -130,14 +130,10 @@ h2 {
   box-sizing: border-box;
 }
 
-figcaption {
-  padding-top: 25px;
-}
-
 .column {
   float: left;
   width: 33.33%;
-  padding: 5px;
+  padding: 10px;
 }
 
 /* Clearfix (clear floats) */
