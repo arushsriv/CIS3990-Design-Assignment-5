@@ -97,11 +97,12 @@ var container = document.getElementById("mvcontainer-wrapper");
       // sliding vertically
       if (diffY > 0) {
         // alert("HI");
-
+        // window.location.href = 'home.html';
         // swiped up
+        window.location.href = 'more-info.html';
       } else {
         // alert("HI");
-
+        // window.location.href = 'more-info.html';
         // swiped down
       }  
     }
