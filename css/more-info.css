@@ -1,3 +1,37 @@
+body, html {
+  background-color: #ffffff;
+  font-family: 'Trebuchet MS';
+}
+
+h2 {
+  padding-left: 20px;
+  font-size: 24px;
+  color: #cc6c22a0;
+}
+
+.movieandbookmark {
+  top: 75px;
+  /* margin: 0px; */
+  color: teal;
+  /* left: 20px;  */
+  padding-left: 20px;
+  padding-top: 13px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-size: 33px;
+  font-family: 'Trebuchet MS';
+}
+
+.bookmark {
+  background-color: #fb9648a0; 
+  border-radius: 10px;
+  padding: 7px;
+  margin-left: 10px;
+  text-align: right;
+  /* text-align: right; */
+  right: 15px;
+}
+
 .image-list-small {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
@@ -74,6 +108,7 @@
 }
 
 .castphotos {
+    gap: 20px;
     color: white;
     font-size: 12px;
     font-style: italic;
@@ -89,4 +124,25 @@
     width: 300px;
     height: auto;
     margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+figcaption {
+  padding-top: 25px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
