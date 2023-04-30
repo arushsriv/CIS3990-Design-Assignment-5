@@ -15,29 +15,36 @@
     <h3>Interstellar</h3>
     <h4>Directed by: Christpoher Nolan</h4>
 
-    <!-- MOVIE IMAGE -->
+    <!-- BOOKMARK BUTTON -->
+    <button class="bookmark">
+      <img src="images/bookmark.png" alt="Bookmark Icon" height="25px" width="35px">
+    </button>
+
+    <!-- FRIENDS BUTTON -->
+    <button class="friends">
+      <img src="images/friends.png" alt="Friends Icon" height="25px" width="35px">
+    </button>
+
+    <!-- MOVIE IMAGE-->
     <div id="mvcontainer-wrapper" class="mvcontainer">
       <img src="images/Interstellar.jpg" alt="Interstellar movie poster" class="image">
-
+      <!-- GENRE TAGS -->
+      <div class="button-scrollmenu">
+        <button class="btn"><i class="sci-fi"></i>Sci-Fi</button>
+        <button class="btn"><i class="adventure"></i>Adventure</button>
+      </div>
       <br>
-      <div id="mvcontainer" class=""> <!-- MIDDLE-->
+      <!-- MOVIE SYNOPSIS -->
+      <div id="mvcontainer" class=""> 
         <div id="mvcontainer" class="text">
-          <!-- <div id="mvcontainer" class="synopsis"></div>  -->
           Set in a dystopian future where humanity is struggling to survive, the film 
           follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for 
           mankind.
-          <!-- <div id="mvcontainer" class="cast">Cast:</div>  -->
-          <!-- <div id="mvcontainer" class="castphotos">
-            <img src="images/mathmc.png" id="mvcontainer" alt="Matthew McConaughey" height="70px" width="50px">
-            <img src="images/jessicachastain.png" id="mvcontainer" alt="Jessica Chastain" height="70px" width="50px">
-            <img src="images/annehathaway.png" id="mvcontainer" alt="Anne Hathaway" height="70px" width="50px">
-            <figcaption id="mvcontainer" style="font-size:12px;">Matthew McConaughey, Jessica Chastain, Anne Hathaway</figcaption>
-          </div> -->
         </div>
       </div>
     </div>
 
-    <!-- LIKE AND DISLIKE BUTTONS -->
+    <!-- LIKE AND DISLIKE BUTTONS
     <div class="flex-parent jc-center">
       <button onclick="likeMovie()" id="like" style="height:50px; width:60px" class="dislikebu">
         <img id = "likeImage" src="images/likeheart.png" alt="Like Heart" height="30px" width="40px">
@@ -51,7 +58,8 @@
     </div>
     <div class="heartbreak">
       <img id="heartbreak" src="images/dislike.png" alt="Heartbreak" style="display:none; height:200px; width:210px;">
-    </div>
+    </div> -->
+
     <!-- DROPDOWN LIST MENU -->
     <div class="lists"> 
       <label onmousedown="nextMovie()" for="lists" id="lists" style="display:none;">Your lists:</label> 
@@ -64,14 +72,10 @@
     </div>
 
     <!-- NAVIGATION MENU -->
-    <!-- <nav class="navbar"> -->
-      <!-- LOGO -->
-      <!-- <div class="logo">MovieMatch</div> -->
+    <nav class="navbar">
       <!-- NAV MENU -->
-      <!-- <ul class="nav-links"> -->
-        <!-- <input type="checkbox" id="checkbox_toggle"/>
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label> -->
-        <!-- <div class="menu">
+      <ul class="nav-links">
+        <div class="menu">
           <li><a href="/">Home</a></li>
           <li><a href="/">Friends</a></li>
           <li><a href="/">Discover</a></li>
@@ -80,8 +84,9 @@
           <li><a href="/">Settings</a></li>
         </div>
       </ul>
-    </nav> -->
-    <div class="navmenu">
+    </nav>
+
+    <!-- <div class="navmenu">
       <button class="navmenubuttonhome">
         <img src="images/home.png" alt="Home Icon" height="25px" width="35px">
       </button>
@@ -100,7 +105,7 @@
       <button class="navmenubutton">
         <img src="images/settings.png" alt="Settings Icon" height="25px" width="35px">
       </button>
-    </div>
+    </div> -->
 
   </body>
 </html>

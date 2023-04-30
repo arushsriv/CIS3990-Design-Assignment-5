@@ -6,9 +6,8 @@ body, html {
 
 h3 {
     margin: 0px;
-    /* color: teal; */
-    color: rgba(160, 68, 68, 0.382);
-    padding: 0px;
+    color: teal;
+    padding: 5px;
     text-align: center;
     font-size: 24px;
     font-family: 'Trebuchet MS';
@@ -20,6 +19,24 @@ h4 {
     text-align: center;
     font-size: 16px;
     font-family: 'Trebuchet MS';
+}
+
+.bookmark {
+    background-color: #fb9648a0; 
+    padding: 7px;
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    border-radius: 10px;
+}
+
+.friends {
+    background-color: #fb9648a0; 
+    padding: 7px;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    border-radius: 10px;
 }
 
 /* --------------------------------------------------- */
@@ -38,7 +55,7 @@ li {
     justify-content: space-between;
     height: 10px;
     margin: 7px;
-    width: 420px;
+    width: 320px;
     padding: 20px;
     border-radius: 10px;
     background-color: teal;
@@ -49,13 +66,8 @@ li {
     color: #fff; 
 }
 
-.logo {
-    font-size: 18px;
-}
-
 .menu {
     width: 330px;
-    /* height: 5px; */
     display: flex;
     gap: 1em;
     font-size: 12px;
@@ -118,7 +130,7 @@ li {
 .image {
     opacity: 1;
     display: inline-block;
-    width: 300px;
+    width: 250px;
     height: auto;
     border: 2px solid black;
     margin: auto;
@@ -138,28 +150,36 @@ li {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-  
-.middle:hover .image {
-    opacity: 0.6;
-    margin: auto;
-}
-  
-.mvcontainer:hover .middle {
-    opacity: 1;
-    margin: auto;
-}
+
+.btn {
+    font-size: 13px;
+    justify-content: center;
+    overflow: auto;
+    background-color: white;
+    display: inline-block;
+    color: #da701fb3;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #DADEE3;
+    margin-top: 7px;
+    cursor: pointer;
+    appearance: none;
+    transition: transform .7s ease-in-out;
+    border-radius: 10px;
+  }
   
 .text {
-    background-color: #717171;
-    color: white;
-    font-size: 12px;
-    width: 200px;
+    background-color: #deeaee;
+    font-size: 15px;
+    width: 280px;
     height: auto;
-    padding: 16px 32px;
+    margin-top: -13px;
+    padding: 13px 13px;
 }
 
 .synopsis {
-    padding: 10px 10px;
+    padding: 1px 1px;
     color: #4ebaf9;
 }
 
