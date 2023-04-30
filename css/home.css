@@ -1,42 +1,39 @@
 body, html {
     background-color: #ffffff;
-    /* background-color: #a85555; */
     font-family: 'Trebuchet MS';
 }
 
-h3 {
+/* h3 {
     margin: 0px;
     color: teal;
-    padding: 5px;
+    padding-top: 20px; */
+    /* padding-bottom: 70px;
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'Trebuchet MS';
-}
+} */
 
-h4 {
-    margin: 0px;
-    padding: 5px;
-    text-align: center;
-    font-size: 16px;
+.movieandbookmark {
+    top: 75px;
+    /* margin: 0px; */
+    color: teal;
+    /* left: 20px;  */
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 33px;
     font-family: 'Trebuchet MS';
 }
 
 .bookmark {
     background-color: #fb9648a0; 
+    border-radius: 10px;
     padding: 7px;
-    position: absolute;
-    top: 14px;
+    margin-left: 145px;
+    text-align: right;
+    /* text-align: right; */
     right: 15px;
-    border-radius: 10px;
-}
-
-.friends {
-    background-color: #fb9648a0; 
-    padding: 7px;
-    position: absolute;
-    top: 14px;
-    left: 15px;
-    border-radius: 10px;
 }
 
 /* --------------------------------------------------- */
@@ -54,9 +51,12 @@ li {
     align-items: center;
     justify-content: space-between;
     height: 10px;
-    margin: 7px;
+    /* top: 0px; */
+    /* position: absolute; */
+    /* margin: 7px; */
     width: 320px;
     padding: 20px;
+    margin-top: 30px;
     border-radius: 10px;
     background-color: teal;
     color: #fff;
@@ -172,7 +172,8 @@ li {
 .text {
     background-color: #deeaee;
     font-size: 15px;
-    width: 280px;
+    width: 320px;
+    text-align: center;
     height: auto;
     margin-top: -13px;
     padding: 13px 13px;
