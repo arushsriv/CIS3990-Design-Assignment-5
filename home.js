@@ -48,7 +48,7 @@ function closeList() {
 }
 
 // function nextMovie() {
-//         window.location.href = 'home2.html';
+//         window.location.href = 'inception.html';
 // }
 
 
@@ -87,11 +87,11 @@ var container = document.getElementById("mvcontainer-wrapper");
       if (diffX > 0) {
         // swiped left
         // alert("HI");
-        window.location.href = 'home2.html';
+        window.location.href = 'inception.html';
       } else {
         // swiped right
         // alert("HI");
-        // window.location.href = 'home2.html';
+        // window.location.href = 'inception.html';
       }  
     } else {
       // sliding vertically
