@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/more-info.css" />
   </head>
 
-  <body>
+  <body id="mvcontainer-wrapper">
     <!-- NAME AND DIRECTED BY -->
     <div class="movieandbookmark">
       <!-- NAME -->
@@ -25,30 +25,44 @@
     <div class="row">
       <div class="column">
         <img src="images/dicaprio.jpeg" alt="Leonardo DiCaprio" height="100px" width="100px">
-        <figcaption style="font-size:18px; color:teal; padding-top:5px; text-align:center;">Leonardo DiCaprio</figcaption>
+        <figcaption style="font-size:18px; color:black; padding-top:5px; text-align:center;">Leonardo DiCaprio</figcaption>
       </div>
       <div class="column">
         <img src="images/cillian.jpeg" alt="Cillian Murphy" height="100px" width="100px">
-        <figcaption style="font-size:18px; color:teal; padding-top:5px; text-align:center;">Cillian Murphy</figcaption>
+        <figcaption style="font-size:18px; color:black; padding-top:5px; text-align:center;">Cillian Murphy</figcaption>
       </div>
       <div class="column">
         <img src="images/hardy.jpeg" alt="Tom Hardy" height="100px" width="100px">
-        <figcaption style="font-size:18px; color:teal; padding-top:5px; text-align:center;">Tom Hardy</figcaption>
+        <figcaption style="font-size:18px; color:black; padding-top:5px; text-align:center;">Tom Hardy</figcaption>
       </div>
     </div>
 
     <h2>Friend Reviews:</h2>
 
     <div class="friendreviews">
-      <div class="friend1">
-        <img src="images/friend1.png" alt="friend1" class="friend1" height="100px" width="100px">
-        This is truly the best movie I have ever watched. EVER. Its so underrated, especially by people who 
-        just want Michael Bay-esque explosions with incoherent plots.
+      <div class="friend">
+        <div class="friend-profile">
+          <img src="images/friend1.png" alt="friend1" class="friend1" height="100px" width="100px">
+          <span class="profile-name"><b>Jane</b></span>
+        </div>
+        <div class="movie-review">
+          <span><b>9.5/10</b></span>
+          This is truly the best movie I have ever watched. EVER. Its so underrated, especially by people who 
+          just want Michael Bay-esque explosions with incoherent plots.
+        </div>
       </div>
       <br>
-      <img src="images/friend2.png" alt="friend2" class="friendreviews" height="100px" width="100px">
-    </div>
-    
-
+      <div class="friend">
+        <div class="friend-profile">
+          <img src="images/friend2.png" alt="friend2" class="friend2" height="100px" width="100px">
+          <span class="profile-name"><b>John</b></span>
+        </div>
+        <div class="movie-review">
+          <span><b>9/10</b></span>
+          Wow! So entertaining. A must watch for sure. This movie definitely lived up to my expectations. The plot twist at the 
+          end too!
+        </div>
+      </div>
+      <br>
   </body>
 </html>
