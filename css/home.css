@@ -54,7 +54,7 @@ li {
     /* top: 0px; */
     /* position: absolute; */
     /* margin: 7px; */
-    width: 320px;
+    width: 370px;
     padding: 20px;
     margin-top: 30px;
     border-radius: 10px;
@@ -69,7 +69,8 @@ li {
 .menu {
     width: 330px;
     display: flex;
-    gap: 1em;
+    gap: 20px;
+    margin-left: -10px;
     font-size: 12px;
 }
 
@@ -84,15 +85,16 @@ li {
 .navmenu {
     display: flex;
     justify-content: center;
-    background-color: #fb9648a0;
+    /* background-color: #3497d0a9; */
     width: 330px;
     margin: auto;
 }
 
 .navmenubuttonhome {
     cursor: pointer;
-    background-color: #a07759a0;
-    border: 2px solid #da701fb3;
+    /* background-color: #3497d0a9; */
+    /* border: 2px solid #3497d0a9; */
+    mix-blend-mode: multiply;
     margin: 2px; 
     appearance: none;
     transition: transform .7s ease-in-out;
@@ -100,10 +102,11 @@ li {
 
 .navmenubutton {
     cursor: pointer;
-    background-color: #fb9648a0;
-    border: 2px solid #da701fb3;
+    /* background-color: #3497d0a9; */
+    /* border: 2px solid #3497d0a9; */
     margin: 2px; 
-    appearance: none;
+    /* background-color: #3497d0a9; */
+    /* appearance: none; */
     transition: transform .7s ease-in-out;
 }
 
