@@ -19,7 +19,7 @@ body, html {
     color: teal;
     /* left: 20px;  */
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 13px;
     padding-bottom: 20px;
     text-align: left;
     font-size: 33px;
@@ -162,7 +162,8 @@ li {
     padding: 10px;
     text-decoration: none;
     border: 1px solid #DADEE3;
-    margin-top: 7px;
+    margin-top: 13px;
+    margin-bottom: 7px;
     cursor: pointer;
     appearance: none;
     transition: transform .7s ease-in-out;
